@@ -1,0 +1,133 @@
+                                                                   class_stmnt
+                                                                       / \
+                                                                      /   \
+                                                                     /     \
+                                                                    /       \
+                                                                   /         \
+                                                                  /           \
+                                                                 /             \
+                                                                /               \
+                                                             stmnt         method_stmnt
+                                                              / \               / \
+                                                             /   \             /   \
+                                                            /     \           /     \
+                                                         stmnt     =         /       \
+                                                          / \     / \       /         \
+                                                         /   \   z  12     /           \
+                                                       NULL   =           /             \
+                                                             / \   public_method    main_method
+                                                            x  10       / \               \
+                                                                       /   \             stmnt
+                                                                      /     \             / \
+                                                                    NULL   NULL          /   \
+                                                                                        /     \
+                                                                                     stmnt   NULL
+                                                                                      / \
+                                                                                     /   \
+                                                                                    /     \
+                                                                                 stmnt   NULL
+                                                                                  / \
+                                                                                 /   \
+                                                                                /     \
+                                                                             stmnt   NULL
+                                                                              / \
+                                                                             /   \
+                                                                            /     \
+                                                                         stmnt   NULL
+                                                                          / \
+                                                                         /   \
+                                                                        /     \
+                                                                     stmnt     =
+                                                                      / \     / \
+                                                                     /   \   z   +
+                                                                    /     \     / \
+                                                                 stmnt     =   3   y
+                                                                  / \     / \
+                                                                 /   \   y   x
+                                                                /     \
+                                                             stmnt     =
+                                                              / \     / \
+                                                             /   \   y  10
+                                                            /     \
+                                                         stmnt     =
+                                                          / \     / \
+                                                         /   \   c  10
+                                                       NULL  IF
+                                                             / \
+                                                            /   \
+                                                           /     \
+                                                         true   stmnt
+                                                                 / \
+                                                                /   \
+                                                               /     \
+                                                              /       \
+                                                             /         \
+                                                            /           \
+                                                           /             \
+                                                          /               \
+                                                         /                 \
+                                                        /                   \
+                                                       /                     \
+                                                      /                       \
+                                                     /                         \
+                                                    /                           \
+                                                 stmnt                          FOR
+                                                  / \                           / \
+                                                 /   \                         /   \
+                                                /     \                       /     \
+                                               /       \                     /       \
+                                              /         \                   /         \
+                                             /           \              FOR_ARGS     stmnt
+                                            /             \               / \         / \
+                                           /               \             /   \       /   \
+                                          /                 \           /     \    NULL   =
+                                         /                   \         /       \         / \
+                                        /                     \       =    loop_conds   a   +
+                                       /                       \     / \       / \         / \
+                                      /                         \   i   5     /   \       8   i
+                                     /                           \           /     \
+                                  stmnt                          FOR        <      ++
+                                   / \                           / \       / \     /
+                                  /   \                         /   \     i  10   i
+                                 /     \                       /     \
+                                /       \                     /       \
+                               /         \                   /         \
+                              /           \              FOR_ARGS     stmnt
+                             /             \               / \         / \
+                            /               \             /   \       /   \
+                           /                 \           /     \    NULL   =
+                          /                   \         /       \         / \
+                       stmnt              IF_ELSE_IF   =    loop_conds   ff  +
+                        / \                   / \     / \       / \         / \
+                       /   \                 /   \   i   5     /   \       8   i
+                      /     \               /     \           /     \
+                     /       \             /       \         <      ++
+                  stmnt       =           /         \       / \     /
+                   / \       / \         IF        ELSE    i  10   i
+                  /   \     /   \       / \           \
+                 /     \   oo   444    /   \         stmnt
+              stmnt     =             /     \         / \
+               / \     / \           >=    stmnt     /   \
+              /   \   ff  +         / \     / \    NULL   =
+             /     \     / \       a   2   /   \         / \
+          stmnt     =   5   y             /     \       a   8
+           / \     / \                   /       \
+          /   \   c   +                NULL  IF_ELSE_IF
+         /     \     / \                         / \
+      stmnt     =   5  10                       /   \
+       / \     / \                             /     \
+      /   \   y  99                           /       \
+     /     \                                 /         \
+  stmnt     =                               IF        ELSE
+   / \     / \                             / \           \
+  /   \   a   /                           /   \         stmnt
+NULL   =     / \                         /     \         / \
+      / \   12  3                       >=    stmnt     /   \
+     /   \                             / \     / \    NULL   =
+    ff   555                          a   4   /   \         / \
+                                            NULL   =       a   4
+                                                  / \
+                                                 a  10
+ 
+
+ ACCEPTED
